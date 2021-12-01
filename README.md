@@ -26,9 +26,9 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
+The following picture samples the application functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./sample-page.jpg)
+![A screen shot of the website](./sample-page.jpg)
 
 ```
 
