@@ -8,7 +8,6 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: #000000;
   border-left: 1px solid black;
   padding: 10px;
 }
@@ -19,10 +18,6 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
-}
-
-.description {
-  white-space: pre-wrap;
 }
 
 .time-block {
@@ -42,34 +37,37 @@ textarea {
   border-top: 1px dashed #000000;
 }
 
+/* Assign the text and background colors for the actual event data */
 .past {
-  background-color: #d3d3d3;
+  background-color: #acacac;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #fc827c;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #75ce75;
   color: white;
 }
+
+/* Change text to black if it's been edited */
+.changed {
+  color: black;
+}
+
 
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
+  background-color: #0487a5;
   color: white;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
-}
-
-.changed {
-  color: black;
 }

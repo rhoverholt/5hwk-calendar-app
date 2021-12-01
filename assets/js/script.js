@@ -108,7 +108,11 @@ function saveBtnClicked() {
     saveKey = currDateTime.format("MMDDYYYY ") + textareaId;
     saveText = $("#" + textareaId).val();
 
-    localStorage.setItem(saveKey, saveText);
+    if (saveText == "") {
+        localStorage.removeItem(saveKey);
+    } else {
+        localStorage.setItem(saveKey, saveText);
+    }
 
     $(this).text("Locked");
     $("#" + textareaId).removeClass("changed");
