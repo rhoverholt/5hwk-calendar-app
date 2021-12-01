@@ -26,12 +26,9 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following picture samples the application functionality:
+The following picture is a sample of the page's functionality:
 
 ![A screen shot of the website](./assets/sample-page.jpg)
-
-```
-
 ## Live URL
 
 https://rhoverholt.github.io/5hwk-calendar-app/
