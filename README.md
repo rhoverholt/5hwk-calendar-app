@@ -28,7 +28,7 @@ THEN the saved events persist
 
 The following picture samples the application functionality:
 
-![A screen shot of the website](./sample-page.jpg)
+![A screen shot of the website](./assets/sample-page.jpg)
 
 ```
 
